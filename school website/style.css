@@ -1,0 +1,248 @@
+/* Applies to every element */
+* {
+    box-sizing: border-box;
+}
+
+
+/* Body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fc;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* Header */
+header {
+    background-color: #073b66;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+
+header p {
+    margin: 5px 0;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #0b5fa5;
+    text-align: center;
+    padding: 12px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 18px;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Hero section */
+.hero {
+    background-color: #dceeff;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Image */
+.hero img {
+    width: 85%;
+    max-width: 850px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+/* Main container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+
+/* Sections */
+.section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+/* Headings */
+h2 {
+    color: #073b66;
+}
+
+
+/* Highlighted text */
+.highlight {
+    color: #0b5fa5;
+    font-weight: bold;
+}
+
+
+/* Lists */
+ul,
+ol {
+    padding-left: 30px;
+}
+
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+
+/* Table cells */
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: left;
+}
+
+
+/* Table headings */
+th {
+    background-color: #073b66;
+    color: white;
+}
+
+
+/* Different background for even rows */
+tr:nth-child(even) {
+    background-color: #eef5fb;
+}
+
+
+/* Registration form */
+form {
+    background-color: #eef6ff;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+
+/* Form inputs */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+
+/* Gender radio buttons */
+.radio-group {
+    margin-top: 8px;
+}
+
+
+.radio-group label {
+    display: inline;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+
+.radio-group input {
+    width: auto;
+}
+
+
+/* Submit button */
+button {
+    background-color: #073b66;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* Button hover effect */
+button:hover {
+    background-color: #0b5fa5;
+}
+
+
+/* Footer */
+footer {
+    background-color: #073b66;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* Cards */
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    flex: 1;
+    min-width: 220px;
+    background-color:#e9f4ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+/* Makes website responsive on phones */
+@media (max-width: 700px) {
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    .hero img {
+        width: 100%;
+        height: 220px;
+    }
+
+}
